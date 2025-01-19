@@ -1,0 +1,78 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter C
+  \item \spxentry{cards\_all\_same\_suit()}\spxextra{in module RankTheHand}, \hyperpage{4}
+  \item \spxentry{create\_players()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+
+  \indexspace
+  \bigletter E
+  \item \spxentry{enter\_a\_float()}\spxextra{in module validator}, \hyperpage{4}
+  \item \spxentry{enter\_an\_integer()}\spxextra{in module validator}, \hyperpage{4}
+  \item \spxentry{enter\_correct\_type()}\spxextra{in module validator}, \hyperpage{4}
+  \item \spxentry{enter\_float\_in\_range()}\spxextra{in module validator}, \hyperpage{4}
+  \item \spxentry{enter\_integer\_in\_range()}\spxextra{in module validator}, \hyperpage{4}
+  \item \spxentry{enter\_number\_in\_range()}\spxextra{in module validator}, \hyperpage{4}
+  \item \spxentry{enter\_valid\_character()}\spxextra{in module validator}, \hyperpage{4}
+
+  \indexspace
+  \bigletter G
+  \item \spxentry{gen\_player\_hand()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+  \item \spxentry{generate\_a\_card()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+  \item \spxentry{generate\_deck()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+  \item \spxentry{generate\_the\_flop()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+
+  \indexspace
+  \bigletter H
+  \item \spxentry{handle\_a\_bet()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+  \item \spxentry{handle\_other\_bets()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+
+  \indexspace
+  \bigletter I
+  \item \spxentry{is\_flush()}\spxextra{in module RankTheHand}, \hyperpage{4}
+  \item \spxentry{is\_four\_kind()}\spxextra{in module RankTheHand}, \hyperpage{4}
+  \item \spxentry{is\_full\_house()}\spxextra{in module RankTheHand}, \hyperpage{4}
+  \item \spxentry{is\_pair()}\spxextra{in module RankTheHand}, \hyperpage{4}
+  \item \spxentry{is\_straight()}\spxextra{in module RankTheHand}, \hyperpage{4}
+  \item \spxentry{is\_straight\_flush()}\spxextra{in module RankTheHand}, \hyperpage{4}
+  \item \spxentry{is\_three\_kind()}\spxextra{in module RankTheHand}, \hyperpage{4}
+  \item \spxentry{is\_two\_pairs()}\spxextra{in module RankTheHand}, \hyperpage{4}
+
+  \indexspace
+  \bigletter M
+  \item \spxentry{main()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+  \item \spxentry{main()}\spxextra{in module validator}, \hyperpage{4}
+  \item \spxentry{module}
+    \subitem \spxentry{PlayHoldEm}, \hyperpage{3}
+    \subitem \spxentry{RankTheHand}, \hyperpage{4}
+    \subitem \spxentry{validator}, \hyperpage{4}
+
+  \indexspace
+  \bigletter P
+  \item \spxentry{PlayHoldEm}
+    \subitem \spxentry{module}, \hyperpage{3}
+
+  \indexspace
+  \bigletter R
+  \item \spxentry{RankTheHand}
+    \subitem \spxentry{module}, \hyperpage{4}
+  \item \spxentry{return\_all\_players\_best\_hand()}\spxextra{in module PlayHoldEm}, \hyperpage{3}
+  \item \spxentry{return\_cards\_rank\_as\_straight()}\spxextra{in module RankTheHand}, 
+		\hyperpage{4}
+  \item \spxentry{return\_most\_frequent\_and\_num\_counter\_elements()}\spxextra{in module RankTheHand}, 
+		\hyperpage{4}
+
+  \indexspace
+  \bigletter T
+  \item \spxentry{the\_hand\_is\_a()}\spxextra{in module PlayHoldEm}, \hyperpage{4}
+  \item \spxentry{the\_players\_best\_hand()}\spxextra{in module PlayHoldEm}, \hyperpage{4}
+
+  \indexspace
+  \bigletter V
+  \item \spxentry{validator}
+    \subitem \spxentry{module}, \hyperpage{4}
+
+\end{sphinxtheindex}

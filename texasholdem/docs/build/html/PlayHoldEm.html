@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlayHoldEm module &#8212; texasholdem  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="RankTheHand module" href="RankTheHand.html" />
+    <link rel="prev" title="PlayHoldEm" href="modules.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-PlayHoldEm">
+<span id="playholdem-module"></span><h1>PlayHoldEm module<a class="headerlink" href="#module-PlayHoldEm" title="Permalink to this headline">¶</a></h1>
+<p>PlayHoldEm Game.</p>
+<p>Texas holdem is a 1 vs 1-8 computer player game.
+the game randomly generates your cards. you’re able to to bet
+1 - 1000. at the end of the game all cards are shown and a winner
+is returned</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.create_players">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">create_players</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">the_deck</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_players</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.create_players" title="Permalink to this definition">¶</a></dt>
+<dd><p>create_players.</p>
+<p>a dictionary of players are created and given 2 cards,
+$1000. the amount of players is input by the user.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.gen_player_hand">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">gen_player_hand</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">the_deck</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">number_of_cards</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.gen_player_hand" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gen_player_hand.</p>
+<p>Generates Players Hand
+the number of cards are how many cards are to be returned
+those cards are removed to only be used once.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.generate_a_card">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">generate_a_card</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">the_deck</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.generate_a_card" title="Permalink to this definition">¶</a></dt>
+<dd><p>generate_a_card.</p>
+<p>Generates 1 card. the 2nd and third round.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.generate_deck">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">generate_deck</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.generate_deck" title="Permalink to this definition">¶</a></dt>
+<dd><p>generate_deck.</p>
+<p>This function creates the deck</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.generate_the_flop">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">generate_the_flop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">the_deck</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.generate_the_flop" title="Permalink to this definition">¶</a></dt>
+<dd><p>generate_the_flop.</p>
+<p>Generates 3 cards</p>
+<p>These are the first three community cards</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.handle_a_bet">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">handle_a_bet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a_player</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">amount_to_bet</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">the_pot</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.handle_a_bet" title="Permalink to this definition">¶</a></dt>
+<dd><p>handle_a_bet.</p>
+<p>Player 1s bet is handlded here and counted in the pot</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.handle_other_bets">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">handle_other_bets</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a_player</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">amount_bet</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">the_pot</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.handle_other_bets" title="Permalink to this definition">¶</a></dt>
+<dd><p>handle_other_bets.</p>
+<p>This function brings amount_bet from player 1 and applied that to the
+rest of the players</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.main">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.return_all_players_best_hand">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">return_all_players_best_hand</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player_list</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.return_all_players_best_hand" title="Permalink to this definition">¶</a></dt>
+<dd><p>return_all_players_best_hand.</p>
+<p>we iterate through each players best hand.
+each players hand is ran through the players best hand
+and the highest value is returned to pick_a_winner</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.the_hand_is_a">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">the_hand_is_a</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player_hand</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.the_hand_is_a" title="Permalink to this definition">¶</a></dt>
+<dd><p>the_hand_is_a.</p>
+<p>the hand is uses the rankthehand.py file to rank each hand</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PlayHoldEm.the_players_best_hand">
+<span class="sig-prename descclassname"><span class="pre">PlayHoldEm.</span></span><span class="sig-name descname"><span class="pre">the_players_best_hand</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player_hand</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#PlayHoldEm.the_players_best_hand" title="Permalink to this definition">¶</a></dt>
+<dd><p>the_players_best_hand.</p>
+<p>We take all possible combinations of the players hand and run it
+against rankthehand.py.
+we then sort the tuple</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">texasholdem</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Operations</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">PlayHoldEm</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">PlayHoldEm module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RankTheHand.html">RankTheHand module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">PlayHoldEm</a><ul>
+      <li>Previous: <a href="modules.html" title="previous chapter">PlayHoldEm</a></li>
+      <li>Next: <a href="RankTheHand.html" title="next chapter">RankTheHand module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, mark truett.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="_sources/PlayHoldEm.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

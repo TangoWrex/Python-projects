@@ -1,0 +1,36 @@
+\indexentry{module@\spxentry{module}!PlayHoldEm@\spxentry{PlayHoldEm}|hyperpage}{3}
+\indexentry{PlayHoldEm@\spxentry{PlayHoldEm}!module@\spxentry{module}|hyperpage}{3}
+\indexentry{create\_players() (in module PlayHoldEm)@\spxentry{create\_players()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{gen\_player\_hand() (in module PlayHoldEm)@\spxentry{gen\_player\_hand()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{generate\_a\_card() (in module PlayHoldEm)@\spxentry{generate\_a\_card()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{generate\_deck() (in module PlayHoldEm)@\spxentry{generate\_deck()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{generate\_the\_flop() (in module PlayHoldEm)@\spxentry{generate\_the\_flop()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{handle\_a\_bet() (in module PlayHoldEm)@\spxentry{handle\_a\_bet()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{handle\_other\_bets() (in module PlayHoldEm)@\spxentry{handle\_other\_bets()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{main() (in module PlayHoldEm)@\spxentry{main()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{return\_all\_players\_best\_hand() (in module PlayHoldEm)@\spxentry{return\_all\_players\_best\_hand()}\spxextra{in module PlayHoldEm}|hyperpage}{3}
+\indexentry{the\_hand\_is\_a() (in module PlayHoldEm)@\spxentry{the\_hand\_is\_a()}\spxextra{in module PlayHoldEm}|hyperpage}{4}
+\indexentry{the\_players\_best\_hand() (in module PlayHoldEm)@\spxentry{the\_players\_best\_hand()}\spxextra{in module PlayHoldEm}|hyperpage}{4}
+\indexentry{module@\spxentry{module}!RankTheHand@\spxentry{RankTheHand}|hyperpage}{4}
+\indexentry{RankTheHand@\spxentry{RankTheHand}!module@\spxentry{module}|hyperpage}{4}
+\indexentry{cards\_all\_same\_suit() (in module RankTheHand)@\spxentry{cards\_all\_same\_suit()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{is\_flush() (in module RankTheHand)@\spxentry{is\_flush()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{is\_four\_kind() (in module RankTheHand)@\spxentry{is\_four\_kind()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{is\_full\_house() (in module RankTheHand)@\spxentry{is\_full\_house()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{is\_pair() (in module RankTheHand)@\spxentry{is\_pair()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{is\_straight() (in module RankTheHand)@\spxentry{is\_straight()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{is\_straight\_flush() (in module RankTheHand)@\spxentry{is\_straight\_flush()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{is\_three\_kind() (in module RankTheHand)@\spxentry{is\_three\_kind()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{is\_two\_pairs() (in module RankTheHand)@\spxentry{is\_two\_pairs()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{return\_cards\_rank\_as\_straight() (in module RankTheHand)@\spxentry{return\_cards\_rank\_as\_straight()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{return\_most\_frequent\_and\_num\_counter\_elements() (in module RankTheHand)@\spxentry{return\_most\_frequent\_and\_num\_counter\_elements()}\spxextra{in module RankTheHand}|hyperpage}{4}
+\indexentry{module@\spxentry{module}!validator@\spxentry{validator}|hyperpage}{4}
+\indexentry{validator@\spxentry{validator}!module@\spxentry{module}|hyperpage}{4}
+\indexentry{enter\_a\_float() (in module validator)@\spxentry{enter\_a\_float()}\spxextra{in module validator}|hyperpage}{4}
+\indexentry{enter\_an\_integer() (in module validator)@\spxentry{enter\_an\_integer()}\spxextra{in module validator}|hyperpage}{4}
+\indexentry{enter\_correct\_type() (in module validator)@\spxentry{enter\_correct\_type()}\spxextra{in module validator}|hyperpage}{4}
+\indexentry{enter\_float\_in\_range() (in module validator)@\spxentry{enter\_float\_in\_range()}\spxextra{in module validator}|hyperpage}{4}
+\indexentry{enter\_integer\_in\_range() (in module validator)@\spxentry{enter\_integer\_in\_range()}\spxextra{in module validator}|hyperpage}{4}
+\indexentry{enter\_number\_in\_range() (in module validator)@\spxentry{enter\_number\_in\_range()}\spxextra{in module validator}|hyperpage}{4}
+\indexentry{enter\_valid\_character() (in module validator)@\spxentry{enter\_valid\_character()}\spxextra{in module validator}|hyperpage}{4}
+\indexentry{main() (in module validator)@\spxentry{main()}\spxextra{in module validator}|hyperpage}{4}

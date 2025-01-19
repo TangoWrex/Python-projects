@@ -1,0 +1,5 @@
+
+docs/_build/latex/*
+!docs/_build/latex/PlayHoldEm.pdf
+docs/_build/man/*
+!docs/_build/man/PlayHoldEm.*
