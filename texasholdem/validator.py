@@ -10,18 +10,15 @@ is valid
 from itertools import chain
 
 
-# For Exercise 9: Let's add a function that checks if input characters
-# are in a set of other characters
-# The type hinting is not necessary - just makes it easier when writing code in a Python-sensitive IDE
+
 def enter_valid_character(prompt, set_of_valid_chars: str, ignore_case=True):
-    # Chain upper and lower case characters together when ignore_case=True (default)
-    # Doesn't have to be a set but it's an easy way to guarantee uniqueness among elements
+ 
     if ignore_case:
-        # Can't pass up an opportunity to use an itertools function, right?
+       
         set_of_valid_chars = set(chain([a_char.upper() for a_char in set_of_valid_chars],
                                        [a_char.lower() for a_char in set_of_valid_chars]))
 
-    # The walrus operator is quite handy here
+    
     while (entered_char := input(prompt + "==> ")) not in set_of_valid_chars:
         print(f'{entered_char} not one of the valid characters {set_of_valid_chars}. Try again')
 

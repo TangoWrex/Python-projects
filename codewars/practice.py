@@ -1,4 +1,4 @@
-# Example Python
+#!/usr/bin/env python3
 
 
 def to_jaden_case(string):

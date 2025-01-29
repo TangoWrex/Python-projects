@@ -31,20 +31,7 @@ def is_straight(a_hand):
     return return_cards_rank_as_straight(a_hand) and not cards_all_same_suit(a_hand)
 
 
-# This code needs to be broken out because a straight flush will register as both a straight
-# and a straight flush (also a flush).
-# Need a way of checking for a straight/not a straight
-# without calling the 'is_straight' function recursively from is_straight_flush.
-#
-# Have a similar issue with full house - two pair (every full house has two pair, right?)
 
-# For a straight, need to be aware that an ace may be the
-# lowest cars (a '1') or the highest.
-# We assume the ace is the highest here; that's all the lab asks for
-#
-# Going to change this routine to pick up the Ace as a 1 or a 14
-#
-# The idea is to extract the rank and see if there are no dupes and the highest - lowest == 4
 def return_cards_rank_as_straight(a_hand):
     # Need to map character string ranks into numbers
     # There are oh-so-many ways to do this!
@@ -97,20 +84,6 @@ def return_cards_rank_as_straight(a_hand):
 
 
 # The remaining hand types deal with frequencies of occurring ranks
-#
-# For a pair, we need two of the same rank and 1 of each remaining rank (3 remaining)
-# For 3-kind, we need three of the same rank and 1 of each remaining rank (2 remaining)
-# For 4-kind, we need four of the same rank and 1 of the remaining rank (1 remaining)
-# The Counter class is good for counting occurrences.
-# Unlike the is_straight() function, there is no need to change ranks to numbers to use Counter
-#
-# The similarity of the hand evaluation techniques cries out for a utility that performs the
-# common functions:
-#   Extracting the ranks from the hand
-#   Counting the ranks using a counter object
-#   returning the most frequent count and the length of the counter object
-#
-# This is a utility function that retrieves the counter object that
 # provides the distribution of ranks in the hand
 def return_most_frequent_and_num_counter_elements(a_hand):
     # One step at a time: Extract the rank from the display hand

@@ -1,8 +1,10 @@
 import time
 import socket
-from src.py.send_knocks import send_knock
+# from src.py.send_knocks import send_knock
 from time import sleep
 import json
+
+"""This client is built for a server used in a project. """
 
 
 class client(object):
@@ -24,9 +26,9 @@ class client(object):
     @classmethod
     def connect_to_server(self, ip_address):
         ip = ip_address
-        send_knock(ip, 19)
-        send_knock(ip, 13)
-        send_knock(ip, 17)
+        # send_knock(ip, 19)
+        # send_knock(ip, 13)
+        # send_knock(ip, 17)
         # sleep is required to allow the server to be ready
         sleep(1)
 
